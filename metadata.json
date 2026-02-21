@@ -1,0 +1,9 @@
+
+{
+  "name": "Keith DramaBox",
+  "description": "Premium short-form drama streaming platform for the best storytelling experience.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

@@ -37,7 +37,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
       <header className="md:hidden flex items-center justify-between p-4 sticky top-0 z-50 bg-zinc-950/80 backdrop-blur-md border-b border-zinc-800">
         <Link to="/" className="flex items-center gap-2">
           <div className="w-8 h-8 bg-rose-600 rounded-lg flex items-center justify-center font-bold text-white italic">K</div>
-          <span className="font-bold text-lg tracking-tight">Keith <span className="text-rose-600">DramaBox</span></span>
+          <span className="font-bold text-lg tracking-tight">Sheryl <span className="text-rose-600">DramaBox</span></span>
         </Link>
         <button onClick={() => setSidebarOpen(true)} className="p-2">
           <Bars3Icon className="w-6 h-6" />
@@ -54,7 +54,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
           <div className="flex items-center justify-between mb-8">
             <Link to="/" className="flex items-center gap-2" onClick={() => setSidebarOpen(false)}>
               <div className="w-10 h-10 bg-rose-600 rounded-xl flex items-center justify-center font-bold text-white text-xl italic">K</div>
-              <span className="font-bold text-xl tracking-tight">Keith <span className="text-rose-600">DramaBox</span></span>
+              <span className="font-bold text-xl tracking-tight">Sheryl <span className="text-rose-600">DramaBox</span></span>
             </Link>
             <button onClick={() => setSidebarOpen(false)} className="md:hidden p-2 text-zinc-400">
               <XMarkIcon className="w-6 h-6" />
@@ -94,7 +94,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
           </nav>
 
           <div className="mt-auto pt-6 border-t border-zinc-900">
-            <p className="text-xs text-zinc-600">© 2024 Keithkeizzah</p>
+            <p className="text-xs text-zinc-600">© 2026 Keithkeizzah</p>
           </div>
         </div>
       </aside>

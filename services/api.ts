@@ -7,7 +7,7 @@ import {
   DramaItem
 } from '../types';
 
-const BASE_URL = 'https://apiskeith.top/dramabox';
+const BASE_URL = 'https://apiskeith.vercel.app/dramabox';
 
 // Helper to extract bookId from image URL if it's null in the API response
 const extractIdFromImage = (url: string): string | null => {
